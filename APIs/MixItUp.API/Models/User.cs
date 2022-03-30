@@ -18,6 +18,9 @@ namespace MixItUp.API.Models
 
         [DataMember]
         public int? ViewingMinutes { get; set; }
+        
+        [DataMember]
+        public bool IsSpecialtyExcluded { get; set; }
 
         [DataMember]
         public List<CurrencyAmount> CurrencyAmounts { get; set; } = new List<CurrencyAmount>();
